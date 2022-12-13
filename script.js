@@ -35,6 +35,29 @@ number--;
 
 //-----------------------------------------------------------------------------------------------//
 
+
+var name = "Laura"
+
+let affirmation = "es una joven promesa del ballet"
+
+let language = "habla tres idiomas"
+
+const age = 18
+
+const birthplace = "nació en Versalles muy cerca de Paris"
+
+const storyline = "lejos de los focos y los grandes teatros."
+
+x = true 
+
+
+console.log(`Su nombre es ${name} y ${affirmation}, ${language}, tiene ${age} años, ${birthplace} ${storyline}. ¿Esta historia es verdadera!? ${x}`)
+
+
+
+
+
+
 //Funciones>
 //Una función es un bloque de instrucciones que puede ejecutarse tantas veces como desee.
 //Una función puede tener parámetros y devolver un valor. Las funciones se pueden definir de diferentes 
