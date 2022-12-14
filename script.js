@@ -42,15 +42,91 @@ number--;
 //El nombre de la función,los parámetros encerrados entre paréntesis, las afirmaciones encerradas entre corchetes.
 
 
+
+
+
+
+
+
+
+
+
+
+
+//declara una funcion
 function medirSuperficieCuadrado(longitudLado) {
     return longitudLado * longitudLado;
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Variables 
+let numeroA = 3 
+let numeroB = 6
+let numeroZ = 7
+
+//Declarar funciones
+function sumar(Numero1, raul, diego){
+  return Numero1 + Numero2 + diego
+}
+
+function restar(a , b){
+  return a - b
+}
+
+function multiplicar(a , b){
+  return a * b
+}
+
+
+//llamar a las funciones
+//console.info(sumar(3567, numeroA, numeroZ)) //10
+//console.info(sumar(6, 15, numeroB)) //21 //hardcode - no lo hagan
+
+
+
+
+
+
+
+
+
+
+
+
+
 var longitudLado = 6
 
-var resultado = medirSuperficieCuadrado(longitudLado)
 
-console.info(resultado)
+//llamar a una funcion
+//var resultado = medirSuperficieCuadrado(longitudLado)
+
+//console.info(resultado)
+
+
+
+
+
+
 
 
 
@@ -77,9 +153,13 @@ console.info(resultado)
 
 //Parámetros
 
-function give(input) {
-  return input;
+function give(numeroA) {
+  return numeroA + 5;
 }
+const resultado = give(6)
+
+console.info("este es esl resultado de give" + give(5))
+console.info(resultado)
 
 //definimos una función que simplemente devuelve el parámetro input. Los parámetros son variables. 
 
@@ -98,3 +178,12 @@ let result = give('apple');
 
 //CONDICIONALES ------- que son???
 //ARRAYS ------que son??? que funciones existen para maniular Arrays?
+
+
+
+
+
+
+
+
+//medirSuperficieCuadrado()
