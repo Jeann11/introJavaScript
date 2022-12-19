@@ -124,7 +124,7 @@ function validarEdad(edad) {
   return resultado;
 }
 
-console.info(validarEdad(edadDeCarlos));
+// console.info(validarEdad(edadDeCarlos));
 
 
 
@@ -140,6 +140,18 @@ console.info(validarEdad(edadDeCarlos));
 
 for(let horas = 0; horas <= 40; horas++){
   // console.info("llevas " + horas + " trabajadas")
+}
+
+
+for (let numbers = 1; numbers <= 10; numbers++) {
+  const name = "Iris"
+  // console.info(`${numbers} ${name}`)  
+}
+
+for (let numbers = 1; numbers <= 10; numbers++) {
+ const number = 2 
+ const number1 = 2 * numbers
+  console.info(`${number} * ${numbers} = ${number1}`) 
 }
 
 
