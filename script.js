@@ -142,11 +142,14 @@ for(let horas = 0; horas <= 40; horas++){
   // console.info("llevas " + horas + " trabajadas")
 }
 
+// Lista del 1 al 10 con el mismo nombre en cada número
 
 for (let numbers = 1; numbers <= 10; numbers++) {
   const name = "Iris"
   // console.info(`${numbers} ${name}`)  
 }
+
+// Tabla de multiplicar del 2
 
 for (let numbers = 1; numbers <= 10; numbers++) {
  const number = 2 
