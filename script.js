@@ -50,7 +50,7 @@ const storyline = "lejos de los focos y los grandes teatros."
 x = true 
 
 
-console.log(`Su nombre es ${name} y ${affirmation}, ${language}, tiene ${age} años, ${birthplace} ${storyline}. ¿Esta historia es verdadera!? ${x}`)
+// console.log(`Su nombre es ${name} y ${affirmation}, ${language}, tiene ${age} años, ${birthplace} ${storyline}. ¿Esta historia es verdadera!? ${x}`)
 
 
 
@@ -102,29 +102,29 @@ function multiplicar(a, b) {
 let edadDeRaul = 17;
 let edadDeLucia = 20;
 let edadDeCarlos = 89;
-const nombre = "Raul";
 
 function validarEdad(edad) {
   var resultado;
-  switch (edad) {
-    case edad >= 18:
-      resultado = " puede conducir";
+
+  switch (true) {
+    case edad >= 18 && edad < 70:
+      resultado = "puede conducir";
       break;
-    case edad >= 70:
-      resultado = " deja la herencia y no conduzcas";
+    case edad >= 70 && edad < 80:
+      resultado = "dejar el coche en herencia y no conducir más";
       break;
     case edad >= 80:
-      resultado = " deja la herencia y no conduzcas";
+      resultado = "jubilarse e irse de vacaciones permanentes";
       break;
     default:
-      resultado = " no puede conducir tampoco";
+     resultado = "no puede conducir tampoco";
+     break;
   }
-
+  
   return resultado;
 }
 
-//console.info(validarEdad(edadDeCarlos));
-
+console.info(validarEdad(edadDeCarlos));
 
 
 
@@ -134,12 +134,12 @@ function validarEdad(edad) {
 
 //Bucles
 
-//for repite la misma accion asta que sale del bucle
+//for repite la misma accion hasta que sale del bucle
 
 //horas trabajadas
 
 for(let horas = 0; horas <= 40; horas++){
-  console.info("llevas " + horas + " trabajadas")
+  // console.info("llevas " + horas + " trabajadas")
 }
 
 
@@ -157,9 +157,9 @@ let listaDeNumeros= [5, 78, 24, 567]
 listaDeNumeros.forEach(function(numero){
 
   if(numero < 50){
-    console.info(numero)
+    // console.info(numero)
   }
-  console.info("numero mayor a 50 por eso no lo imprimo")
+  // console.info("numero mayor a 50 por eso no lo imprimo")
 })
 
-console.info(listaDeNumeros[3])
+// console.info(listaDeNumeros[3])
