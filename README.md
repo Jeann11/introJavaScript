@@ -1,9 +1,10 @@
+# Introducción a Javascript (2)
 
+- Completa los tests en el archivo `tests.js`.
+- Abre el archivo `index.html` para ver qué tests están pasando y cuáles fallan.
 
-## Into to JavaScript
+## Errores 🐞
 
-In this project, there are some examples and exercises to take our first steps in the world of programming and JavaScript. Below I will leave some links to continue practicing
-
-Links:
-* https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Introduction
-
+- Lee los errores que aparecen en los tests que fallan (en rojo) para saber qué es lo que has de completar.
+- Si la página no se visualiza correctamente debido a un error en el formato del Javascript, abre la *consola* del navegador para ver dónde está el error.
+- Atenta a los mensajes de error: `tests.js:20:34` significa que hay algo incorrecto en la línea 20, posición 34 del archivo `tests.js`.

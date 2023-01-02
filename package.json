@@ -1,0 +1,22 @@
+{
+  "name": "introjavascript",
+  "version": "1.0.0",
+  "description": "In this project, there are some examples and exercises to take our first steps in the world of programming and JavaScript. Below I will leave some links to continue practicing",
+  "main": "exercise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeann11/introJavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeann11/introJavaScript/issues"
+  },
+  "homepage": "https://github.com/Jeann11/introJavaScript#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
